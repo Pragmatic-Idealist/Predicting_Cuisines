@@ -1,0 +1,4 @@
+# Predicting Cuisines using Recipe Ingredients and various classification methods
+Created a classification model, that measures the cultural authenticity of recipes and classifies recipes into cuisines, achieved 79% accuracy, 79% weighted precision and recall.
+ 
+Extracted data from Yummly API and Kaggle. Conducted data preprocessing removing numbers, punctuation, etc for NLP analysis. Vectorized words using TFIDF. Created plots and visualizations and addressed class imbalances by applying class weights. Applied various machine learning models including, Decision Trees, Random Forests, Naive Bayes, Logistic Regression, and XGBoost, tweaked hyperparameters to arrive at 79% accuracy in cuisine classification. (API, Pandas, ReGex, NLTK, Tableau, Matplotlib, Scikit Learn, Classification Models)
