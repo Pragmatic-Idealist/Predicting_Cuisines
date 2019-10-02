@@ -5,20 +5,20 @@ As a former restauranteur and foodie, I strived to provide authentic culinary ex
 Knowing the cuisine of dish is important for restaurants, food delivery and meal kit companies, and consumers. Restaurants need to protect their brand image and attract customers based on their food's authenticity and experience. Food delivery companies and meal kit companies use cuisines as a part of their recommendation system. Consumers especially foodies want to experience authentic culinary experiences and to understand their cultural palates. I used various classification models to predict cuisine and identify important ingredients that is characteristic of different cuisines.
 
 ## Methodology
-**1. Web Scraping**
-
+**1. Gathering Data**
+I gathered data from Kaggle consisting of 21 Cuisines, 3000+ Ingredients, 30000 unique recipes from Yummly
 
 **2. Data Cleaning**
- 
+Using Regular Expressions and NLTK, I removed numbers, punctuation, and undercased all recipes. Afterward I vectorized the words using TFIDFvectorizer, which weighted individual ingredients and created a sparse matrix of ingredient weights.
 
 **3. Exploratory Data Analysis**
-
+I created plots and vizualizations for each cuisine to discover the relationships between key ingredients and each cuisine. I discovered class imbalances, for example, there are not many Thai dishes compared to Italian dishes, so I added weights to underrepresented cuisines.
 
 **4. Model Training and Validation**
- 
+I split the data into a train set and test set and created a basic KNN model as the Base Model, which achieved an accuracy score of 64%. I improved upon this base model by adjusting parameters and class weights and utilized other more complex models such as logistic regression, OVA naye bayes, decision trees, random forests, and xgBoost. 
 
 **5. Testing**
-
+Arrived at the best performing model, Logistic Regression with Custom Class Weights.
 
 ## Exploratory Data Analysis
 
