@@ -23,7 +23,7 @@ After tweaking class weights, and implementing NLP data processing techniques, a
 ## Findings and Modeling
 
 
-The best peforming model that I constructed was a One Versus All Logistic Regression with Weighted Features. It produced pretty good results, having 78% Accuracy, Weighted Recall, Weighted Precision, and F1. Adding weighted features dramtically increased recall and the coefficients of ingredients by cuisine ended up being very insightful culturally signifcant ingredients that can be used to describe the cultural identity of a food.
+The best peforming model that I constructed was a One Versus All Logistic Regression with Weighted Features. It produced pretty good results, having 78% in Accuracy, Weighted Recall, Weighted Precision, and F1. Adding weighted features dramtically increased recall and the coefficients of ingredients by cuisine ended up being very insightful culturally signifcant ingredients that can be used to describe the cultural identity of a food.
 
 ![Confusion Matrix Earlier Model](test.png)
 
