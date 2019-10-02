@@ -31,12 +31,18 @@ The best peforming model that I constructed was a One Versus All Logistic Regres
 I found some really interesting ingredients 
 
 English Cuisine
+![Cross Cultural Influences](british.png)
 
 Japanese Cuisine
+![Cross Cultural Influences](japanese.png)
 
-Insights from Misclassifcations
 
-![Confusion Matrix Earlier Model](test.png)
+**Insights from Misclassifcations**
+Despite my overall good results, I noticed that some seemingly unrelated cuisines were repeatedly misclassified. For example, 20% British and Irish cuisine were misclassified as Southern United States Cuisine. The overlap of ingredients included Potatoes and Fried Breakfast items. It turns out culturally and historically these cuisines were very simliar. Southern United States food was influenced by English cuisine since the colonial times. This observation also occurs in other cross-cultural cuisines such as Hawaiian, Creole, and Mediterranean cuisines. I personally thought this was really interesting since I am drawing insights from mistakes my model made yet these mistakes also confirm my original view about food, an experience that is influenced by historical, cultural, and geographical factors, which interact across cuisines. 
+
+![Cross Cultural Influences](englishsouth.png)
+
+
 
 
 Other Models
@@ -50,6 +56,12 @@ Other Models
 | Polyreg Model with Lasso  | 0.68| Performed well, however after CV, LinReg with Lasso performed better                   |
 | Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better                   |
 
+## Testing My Model On Food Products
+![Chipotle](chipotle.png)
+
+![koreanburrito](koreanburrito.png)
+
+![wikipoke](wikipoke.png)
 
 ## Take Aways
 
