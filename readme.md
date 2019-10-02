@@ -20,7 +20,15 @@ I split the data into a train set and test set and created a basic KNN model as 
 **5. Testing**
 After tweaking class weights, and implementing NLP data processing techniques, and crossvalidating different models. I arrived at the best performing model, Logistic Regression with Custom Class Weights.
 
-## Exploratory Data Analysis
+## Findings and Modeling
+
+
+The best peforming model that I constructed was a One Versus All Logistic Regression with Weighted Features. It produced pretty good results, having 78% Accuracy, Weighted Recall, Weighted Precision, and F1. Adding weighted features dramtically increased recall and the coefficients of ingredients by cuisine ended up being very insightful culturally signifcant ingredients that can be used to describe the cultural identity of a food.
+
+![Confusion Matrix Earlier Model](test.png)
+
+
+I found some really interesting ingredients 
 
 English Cuisine
 
@@ -28,12 +36,10 @@ Japanese Cuisine
 
 Insights from Misclassifcations
 
-![Confusion Matrix Earlier Model](test.png =1000x1000)
+![Confusion Matrix Earlier Model](test.png)
 
-## Modeling
 
-The next step is to find the model that best generalizes the relationships between the features and the target, price. After splitting the data into train and test parts, I decided to use a number of linear regression models starting from a base line Linear Regression towards more advanced models such as polynomial regressions with lasso and ridge regularization. Below is a table of the performance of each model. 
-
+Other Models
 
 | Algorithm           | R^2                                    | Notes                         |
 | ----------------- | --------------------------------------- | ---------------------------- |
@@ -45,8 +51,8 @@ The next step is to find the model that best generalizes the relationships betwe
 | Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better                   |
 
 
-
-
 ## Take Aways
+
+Overall I am very happy with the results of this projects. I found out that ingredients can be used to classify cuisine fairly accurately. High coefficients of logistic regressions indicate signficant ingredients for each particular cuisine. Misclassifications could be due to cultural similiarities, historical influences, and geographical proximity. I feel validated as a foodie and restauranteur learning that I actually offer pretty authentic Hawaiian Poke Bowls!
 
 
