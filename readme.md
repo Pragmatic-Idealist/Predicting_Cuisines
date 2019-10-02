@@ -45,7 +45,8 @@ The next step is to find the model that best generalizes the relationships betwe
 | Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better                   |
 
 
-![Best Model](finalmodel.png)
+![Best Model](finalmodel.png =250x)
+
 
 ## Take Aways
 
