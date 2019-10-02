@@ -25,19 +25,24 @@ After tweaking class weights, and implementing NLP data processing techniques, a
 
 The best peforming model that I constructed was a One Versus All Logistic Regression with Weighted Features. It produced pretty good results, having 78% in Accuracy, Weighted Recall, Weighted Precision, and F1. Adding weighted features dramtically increased recall and the coefficients of ingredients by cuisine ended up being very insightful culturally signifcant ingredients that can be used to describe the cultural identity of a food.
 
-![Confusion Matrix Earlier Model](test.png)
+![bestmodel](bestmodel.png)
 
 
-I found some really interesting ingredients 
+**Culturally Significant Ingredients**
 
 English Cuisine
 ![Cross Cultural Influences](british.png)
 
+British cuisine has a number of ingredients with high coefficients. Some notable ingredients include stilton cheese, mustard, and marmite. However notice that there is only one ingredient that really sticks out. This happens alot with Western Cuisine. Ultimately many of these ingredients have English names and there is overlap so that only one or two truly unique ingredients from that cuisine.
+
 Japanese Cuisine
 ![Cross Cultural Influences](japanese.png)
 
+Japanese cuisine has many cuisine specific ingredients. These ingredient such as: mirin, miso, sake, wasabi, are linguistically Japanese. So when the vectorizing and modeling these ingredients, they end up all having high coefficients for Japanese cuisine. 
+
 
 **Insights from Misclassifcations**
+
 Despite my overall good results, I noticed that some seemingly unrelated cuisines were repeatedly misclassified. For example, 20% British and Irish cuisine were misclassified as Southern United States Cuisine. The overlap of ingredients included Potatoes and Fried Breakfast items. It turns out culturally and historically these cuisines were very simliar. Southern United States food was influenced by English cuisine since the colonial times. This observation also occurs in other cross-cultural cuisines such as Hawaiian, Creole, and Mediterranean cuisines. I personally thought this was really interesting since I am drawing insights from mistakes my model made yet these mistakes also confirm my original view about food, an experience that is influenced by historical, cultural, and geographical factors, which interact across cuisines. 
 
 ![Cross Cultural Influences](englishsouth.png)
@@ -45,7 +50,7 @@ Despite my overall good results, I noticed that some seemingly unrelated cuisine
 
 
 
-Other Models
+**Other Models**
 
 | Algorithm           | R^2                                    | Notes                         |
 | ----------------- | --------------------------------------- | ---------------------------- |
@@ -57,11 +62,17 @@ Other Models
 | Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better                   |
 
 ## Testing My Model On Food Products
+
+For fun, I decided to try my model on a variety of familiar foods that people consume for lunch and see what their cuisine breakdown is. Some of the results are pretty interesting!
+
 ![Chipotle](chipotle.png)
+Surprisingly enough, Chipotle uses ingredients that are pretty commonly associated with Mexican cuisine and get a high probability for Mexican Cuisine for that reason.
 
 ![koreanburrito](koreanburrito.png)
+Korean taco truck that specializes in Asian-Mexican Fusion food also yielded interesting results.
 
 ![wikipoke](wikipoke.png)
+Finally, to be fair, I wanted to test out my own Poke Bowls from my restaurant. Here we have a traditional bowl and it turns out my food (thankfully) is relatively authentic with alot of Hawaiian, Japanese, and Chinese influenced ingredients.
 
 ## Take Aways
 
