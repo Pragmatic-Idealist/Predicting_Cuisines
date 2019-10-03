@@ -54,12 +54,12 @@ Despite my overall good results, I noticed that some seemingly unrelated cuisine
 
 | Algorithm           | Accuracy                                   | Precision                | Recall              |
 | ----------------- | --------------------------------------- | ---------------------------- | ---------------------------|
-| Base Linear Regression               | 0.67                    | Removed New Listings and added Engineered Features | |
-| Second Degree PolyReg                |  0.05                 | Overfit the test data significantly||
-| Linear Regression with Lasso | 0.71                        | Performed Reasonably well       ||
-| Linear Regression  with Ridge  | 0.70| Performed well                   ||
-| Polyreg Model with Lasso  | 0.68| Performed well, however after CV, LinReg with Lasso performed better   | |
-| Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better   | |
+| Base KNN              | 0.73                    | 0.74 | 0.73|
+| OVA Naive Bayes                |  0.66                 | 0.72| 0.66|
+| Decision Tree | 0.62                        |  0.62   | 0.62|
+| Random Forest  | 0.69|      0.69            | 0.69|
+| Logistic Regression (Balanced Weights)  | 0.76| 0.78| 0.76|
+| Logistic Regression (Custom Weights)  | 0.78| 0.79 | 0.78|
 
 ## Testing My Model On Food Products
 
