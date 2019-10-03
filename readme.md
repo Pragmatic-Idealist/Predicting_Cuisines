@@ -52,14 +52,14 @@ Despite my overall good results, I noticed that some seemingly unrelated cuisine
 
 **Other Models**
 
-| Algorithm           | R^2                                    | Notes                         |
-| ----------------- | --------------------------------------- | ---------------------------- |
-| Base Linear Regression               | 0.67                    | Removed New Listings and added Engineered Features |
-| Second Degree PolyReg                |  0.05                 | Overfit the test data significantly|
-| Linear Regression with Lasso | 0.71                        | Performed Reasonably well       |
-| Linear Regression  with Ridge  | 0.70| Performed well                   |
-| Polyreg Model with Lasso  | 0.68| Performed well, however after CV, LinReg with Lasso performed better                   |
-| Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better                   |
+| Algorithm           | Accuracy                                   | Precision                | Recall              |
+| ----------------- | --------------------------------------- | ---------------------------- | ---------------------------|
+| Base Linear Regression               | 0.67                    | Removed New Listings and added Engineered Features | |
+| Second Degree PolyReg                |  0.05                 | Overfit the test data significantly||
+| Linear Regression with Lasso | 0.71                        | Performed Reasonably well       ||
+| Linear Regression  with Ridge  | 0.70| Performed well                   ||
+| Polyreg Model with Lasso  | 0.68| Performed well, however after CV, LinReg with Lasso performed better   | |
+| Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better   | |
 
 ## Testing My Model On Food Products
 
