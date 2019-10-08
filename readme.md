@@ -30,12 +30,14 @@ The best peforming model that I constructed was a One Versus All Logistic Regres
 
 **Culturally Significant Ingredients**
 
-English Cuisine
+**English Cuisine**
+
 ![Cross Cultural Influences](british.png)
 
 British cuisine has a number of ingredients with high coefficients. Some notable ingredients include stilton cheese, mustard, and marmite. However notice that there is only one ingredient that really sticks out. This happens alot with Western Cuisine. Ultimately many of these ingredients have English names and there is overlap so that only one or two truly unique ingredients from that cuisine.
 
-Japanese Cuisine
+**Japanese Cuisine**
+
 ![Cross Cultural Influences](japanese.png)
 
 Japanese cuisine has many cuisine specific ingredients. These ingredient such as: mirin, miso, sake, wasabi, are linguistically Japanese. So when the vectorizing and modeling these ingredients, they end up all having high coefficients for Japanese cuisine. 
