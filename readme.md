@@ -1,8 +1,16 @@
 # Classifying Recipes into Cuisines
-As a former restauranteur and foodie, I strived to provide authentic culinary experiences through my food and restaurant and seek authentic experiences in food myself. I have observed that our generation now a days spend more time and money on experiences than previous generations often times towards the pursuit of authenticity and something unique. Food is an experience shaped by history, culture, and geography and having an authentic and enjoyable culinary experiences can be very rewarding. **In this project I utilized classification models and natural langauge processing to classify the recipes of different dishes into cuisines.**
+As a former restauranteur and foodie, I strived to provide authentic culinary experiences through my food and restaurant and seek authentic experiences in food myself. 
+
+I have observed that our generation now a days spend more time and money on experiences than previous generations often times towards the pursuit of authenticity and something unique. 
+
+Food is an experience shaped by history, culture, and geography and having an authentic and enjoyable culinary experiences can be very rewarding. 
+
+**In this project I utilized classification models and natural langauge processing to classify the recipes of different dishes into cuisines.**
 
 ## Business Problem/Motivation
-Knowing the cuisine of dish is important for restaurants, food delivery and meal kit companies, and consumers. Restaurants need to protect their brand image and attract customers based on their food's authenticity and experience. Food delivery companies and meal kit companies use cuisines as a part of their recommendation system. Consumers especially foodies want to experience authentic culinary experiences and to understand their cultural palates. I used various classification models to predict cuisine and identify important ingredients that is characteristic of different cuisines.
+Knowing the cuisine of dish is important for restaurants, food delivery and meal kit companies, and consumers. Restaurants need to protect their brand image and attract customers based on their food's authenticity and experience. Food delivery companies and meal kit companies use cuisines as a part of their recommendation systems. Consumers especially foodies want to experience authentic culinary experiences and to understand their cultural palates. 
+
+**I used various classification models to predict cuisine and identify important ingredients that is characteristic of different cuisines.**
 
 ## Methodology
 **1. Gathering Data**
