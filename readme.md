@@ -86,6 +86,6 @@ Finally, to be fair, I wanted to test out my own Poke Bowls from my restaurant. 
 
 ## Take Aways
 
-Overall I am very happy with the results of this projects. I found out that ingredients can be used to classify cuisine fairly accurately. High coefficients of logistic regressions indicate signficant ingredients for each particular cuisine. Misclassifications could be due to cultural similiarities, historical influences, and geographical proximity. I feel validated as a foodie and restauranteur learning that I actually offer pretty authentic Hawaiian Poke Bowls!
+Overall I am very happy with the results of this project. I found out that ingredients can be used to classify cuisine fairly accurately. High coefficients of logistic regressions indicate signficant ingredients for each particular cuisine. Misclassifications could be due to cultural similiarities, historical influences, and geographical proximity. I feel validated as a foodie and restauranteur learning that I actually offer pretty authentic Hawaiian Poke Bowls!
 
 
