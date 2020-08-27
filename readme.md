@@ -51,7 +51,7 @@ British cuisine has a number of ingredients with high coefficients. Some notable
 Japanese cuisine has many cuisine specific ingredients. These ingredient such as: mirin, miso, sake, wasabi, are linguistically Japanese. So when the vectorizing and modeling these ingredients, they end up all having high coefficients for Japanese cuisine. 
 
 
-**Insights from Misclassifcations**
+### Insights from Misclassifcations
 
 Despite my overall good results, I noticed that some seemingly unrelated cuisines were repeatedly misclassified. For example, **20% British and Irish cuisine were misclassified as Southern United States Cuisine.** The overlap of ingredients included Potatoes and Fried Breakfast items. It turns out **culturally and historically these cuisines were very simliar. Southern United States food was influenced by English cuisine since the colonial times.** This observation also occurs in other cross-cultural cuisines such as Hawaiian, Creole, and Mediterranean cuisines. I personally thought this was really interesting since I am drawing insights from mistakes my model made yet these mistakes also confirm my original view about food, an experience that is influenced by historical, cultural, and geographical factors, which interact across cuisines. 
 
